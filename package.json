@@ -1,0 +1,24 @@
+{
+  "name": "validate_object_enhanced",
+  "version": "1.0.0",
+  "description": "Validates objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "rollup --config",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "js",
+    "validation",
+    "object",
+    "datatype"
+  ],
+  "author": "Rikhart Bekkevold",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "rollup": "^2.78.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
