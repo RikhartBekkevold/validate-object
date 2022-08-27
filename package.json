@@ -1,5 +1,5 @@
 {
-  "name": "validate_object_enhanced",
+  "name": "validate-object",
   "version": "1.0.0",
   "description": "Validates objects.",
   "main": "index.js",

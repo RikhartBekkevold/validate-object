@@ -294,12 +294,12 @@ function isUint8ClampedArray(val) {
   return val[Symbol.toStringTag] === "Uint8ClampedArray"
 }
 
-function isUint32Array(val) {
-  return isTypedArray(val) &&
-  val[Symbol.toStringTag] === "Uint32Array" &&
-  val.constructor === Uint32Array &&
-  val instanceof Uint32Array
-}
+// function isUint32Array(val) {
+//   return isTypedArray(val) &&
+//   val[Symbol.toStringTag] === "Uint32Array" &&
+//   val.constructor === Uint32Array &&
+//   val instanceof Uint32Array
+// }
 
 // isUint32Array(new Uint32Array(), Uint32Array)
 function isUint32Array(val, fnobj) {

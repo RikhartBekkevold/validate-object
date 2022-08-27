@@ -2,7 +2,7 @@ const commonjs = require('@rollup/plugin-commonjs')
 const { terser } = require('rollup-plugin-terser')
 const { author, license, version, name } = require('./package.json')
 // can i mix import?
-// replace export for better rollup 
+// replace export for better rollup
 const camelizedName = name.replace(/-(\w)/g, (_, char) => char ? char.toUpperCase() : '')
 const licenseText = "/* " + name + ".js - copyright " + author + ". " + license + " license. Version " + version + ". */"
 
